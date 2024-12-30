@@ -4,6 +4,7 @@ using System.Diagnostics;
 
 namespace AFL.Controllers
 {
+	[Route("/")]
 	public class HomeController : Controller
 	{
 		private readonly ILogger<HomeController> _logger;
@@ -12,27 +13,34 @@ namespace AFL.Controllers
 		{
 			_logger = logger;
 		}
-
-		public IActionResult Index()
-		{
-			return View();
-		}
+		[HttpGet("")]
 		public IActionResult Druzyny()
 		{
 			return View();
 		}
-		public IActionResult Tabela()
+        [HttpGet("tabela")]
+        public IActionResult Tabela()
 		{
 			return View();
 		}
-
+        [HttpGet("gry")]
         public IActionResult Gry()
         {
             return View();
         }
-        public IActionResult Druzyna()
+        [HttpGet("druzyna")]
+        public IActionResult Druzyna([FromQuery] int? teamId)
         {
+			if(!teamId.HasValue)
+			{
+				return RedirectToAction("Druzyny");
+			}
             return View();
         }
+        [HttpGet("nazywo")]
+        public IActionResult NaZywo()
+		{
+			return View();
+		}
     }
 }

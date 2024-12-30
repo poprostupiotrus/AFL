@@ -7,7 +7,7 @@ const roundSelect = document.querySelector('#round-select');
 const imageSourceDomain = 'https://squiggle.com.au';
 const tBody = document.querySelector('tbody');
 let chosenRound = undefined;
-let chosenYear = 2024;
+let chosenYear = currentYear;
 yearSelect.addEventListener('change', (event) => {
     chosenYear = Number(event.target.value);
     fetchDataAndRender()

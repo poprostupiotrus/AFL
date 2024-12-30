@@ -24,7 +24,7 @@
 		public int id { get; set; }
 		public string winner { get; set; }
 		public object timestr { get; set; }
-		public int unixtime { get; set; }
+		public long unixtime { get; set; }
 		public int complete { get; set; }
 		public string date { get; set; }
 		public string roundname { get; set; }

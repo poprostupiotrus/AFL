@@ -34,7 +34,7 @@ function renderTeams(teams2DArray) {
             const teamNameContainer = document.createElement('div');
             teamNameContainer.classList.add('team');
             const a = document.createElement('a');
-            a.href = '';
+            a.href = `/druzyna?teamId=${team.id}`;
             a.innerText = team.name;
             teamNameContainer.append(a);
 
@@ -44,13 +44,3 @@ function renderTeams(teams2DArray) {
         teamColumnContainer.append(teamColumn);
     })
 }
-/*
-    <div class="team-column">
-        <div class="team-logo">
-            <img src="~/img/logo.png">
-        </div>
-        <div class="team"> 
-            <a href="">Bosston Celtics</a>
-        </div>
-    </div>
-*/
