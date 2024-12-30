@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\AFL.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\standings.css",
+      "PackagePath": "staticwebassets\\css\\standings.css"
+    },
+    {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\teams.css",
+      "PackagePath": "staticwebassets\\css\\teams.css"
     },
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\img\\arrow.png",
+      "PackagePath": "staticwebassets\\img\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\fetchdata\\fetchGameData.js",
@@ -21,8 +41,12 @@
       "PackagePath": "staticwebassets\\js\\fetchdata\\fetchTeamData.js"
     },
     {
-      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\standings.js",
+      "PackagePath": "staticwebassets\\js\\standings.js"
+    },
+    {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\teams.js",
+      "PackagePath": "staticwebassets\\js\\teams.js"
     },
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\lib\\bootstrap\\LICENSE",

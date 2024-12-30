@@ -3,48 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\js\\fetchdata\\fetchteamdata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\js\\fetchdata\\fetchteamdata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\js\\fetchdata\\fetchgamedata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\js\\fetchdata\\fetchgamedata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\js\\standings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\js\\standings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\services\\interfaces\\igamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\services\\interfaces\\igamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\js\\teams.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\js\\teams.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\services\\interfaces\\iteamsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\services\\interfaces\\iteamsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\js\\fetchdata\\fetchgamedata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\js\\fetchdata\\fetchgamedata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\services\\gamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\services\\gamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\js\\fetchdata\\fetchteamdata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\js\\fetchdata\\fetchteamdata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\services\\teamsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\services\\teamsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\views\\home\\tabela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\views\\home\\tabela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,20 +47,44 @@
       "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\datafetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\models\\teamstanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\models\\teamstanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\models\\teamdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\models\\teamdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\views\\home\\druzyny.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\views\\home\\druzyny.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\css\\standings.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\css\\standings.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\css\\teams.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\css\\teams.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\models\\teamdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\models\\teamdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\models\\teamstanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\models\\teamstanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\responsewrapper\\teamstandingswrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,6 +99,22 @@
       "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\responsewrapper\\teamresponsewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\services\\gamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\services\\gamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\services\\interfaces\\igamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\services\\interfaces\\igamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\services\\interfaces\\iteamsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\services\\interfaces\\iteamsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\services\\teamsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\services\\teamsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|c:\\users\\komputerrozy\\source\\repos\\afl\\afl\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{11F6829D-0C14-4764-9211-90CA9EC254EA}|AFL\\AFL.csproj|solutionrelative:afl\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -94,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,33 +134,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "AFL\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "AFL\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "standings.js",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\standings.js",
+              "RelativeDocumentMoniker": "AFL\\wwwroot\\js\\standings.js",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\standings.js",
+              "RelativeToolTip": "AFL\\wwwroot\\js\\standings.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-29T10:43:01.054Z",
+              "WhenOpened": "2024-12-29T23:16:32.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
+              "Title": "Tabela.cshtml",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Views\\Home\\Tabela.cshtml",
+              "RelativeDocumentMoniker": "AFL\\Views\\Home\\Tabela.cshtml",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Views\\Home\\Tabela.cshtml",
+              "RelativeToolTip": "AFL\\Views\\Home\\Tabela.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T23:13:29.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "standings.css",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\standings.css",
+              "RelativeDocumentMoniker": "AFL\\wwwroot\\css\\standings.css",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\standings.css",
+              "RelativeToolTip": "AFL\\wwwroot\\css\\standings.css",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-29T23:07:47.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "teams.js",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\teams.js",
+              "RelativeDocumentMoniker": "AFL\\wwwroot\\js\\teams.js",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\teams.js",
+              "RelativeToolTip": "AFL\\wwwroot\\js\\teams.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-29T21:59:45.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "teams.css",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\teams.css",
+              "RelativeDocumentMoniker": "AFL\\wwwroot\\css\\teams.css",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\teams.css",
+              "RelativeToolTip": "AFL\\wwwroot\\css\\teams.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-29T21:35:11.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Druzyny.cshtml",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Views\\Home\\Druzyny.cshtml",
+              "RelativeDocumentMoniker": "AFL\\Views\\Home\\Druzyny.cshtml",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Views\\Home\\Druzyny.cshtml",
+              "RelativeToolTip": "AFL\\Views\\Home\\Druzyny.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T21:32:42.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AFL\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AFL\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T21:25:36.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "AFL\\wwwroot\\css\\main.css",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "AFL\\wwwroot\\css\\main.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-29T21:22:23.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "header.css",
+              "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\header.css",
+              "RelativeDocumentMoniker": "AFL\\wwwroot\\css\\header.css",
+              "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\header.css",
+              "RelativeToolTip": "AFL\\wwwroot\\css\\header.css",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-29T21:08:41.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AFL\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "AFL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-28T23:01:59.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "fetchGameData.js",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\fetchdata\\fetchGameData.js",
               "RelativeDocumentMoniker": "AFL\\wwwroot\\js\\fetchdata\\fetchGameData.js",
@@ -141,33 +277,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "fetchTeamData.js",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\fetchdata\\fetchTeamData.js",
               "RelativeDocumentMoniker": "AFL\\wwwroot\\js\\fetchdata\\fetchTeamData.js",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\fetchdata\\fetchTeamData.js",
               "RelativeToolTip": "AFL\\wwwroot\\js\\fetchdata\\fetchTeamData.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-28T22:55:12.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "DataFetcher.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\DataFetcher.cs",
               "RelativeDocumentMoniker": "AFL\\DataFetcher.cs",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\DataFetcher.cs",
               "RelativeToolTip": "AFL\\DataFetcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T18:31:09.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "GameResponseWrapper.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\ResponseWrapper\\GameResponseWrapper.cs",
               "RelativeDocumentMoniker": "AFL\\ResponseWrapper\\GameResponseWrapper.cs",
@@ -175,36 +311,38 @@
               "RelativeToolTip": "AFL\\ResponseWrapper\\GameResponseWrapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T18:17:09.542Z"
+              "WhenOpened": "2024-12-28T18:17:09.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Models\\Game.cs",
               "RelativeDocumentMoniker": "AFL\\Models\\Game.cs",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Models\\Game.cs",
               "RelativeToolTip": "AFL\\Models\\Game.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywAYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T18:15:03.533Z"
+              "WhenOpened": "2024-12-28T18:15:03.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "GamesApiService.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Services\\GamesApiService.cs",
               "RelativeDocumentMoniker": "AFL\\Services\\GamesApiService.cs",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Services\\GamesApiService.cs",
               "RelativeToolTip": "AFL\\Services\\GamesApiService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T18:04:18.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "IGamesApiService.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Services\\Interfaces\\IGamesApiService.cs",
               "RelativeDocumentMoniker": "AFL\\Services\\Interfaces\\IGamesApiService.cs",
@@ -212,12 +350,11 @@
               "RelativeToolTip": "AFL\\Services\\Interfaces\\IGamesApiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T18:04:01.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T18:04:01.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "GamesController.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Controllers\\GamesController.cs",
               "RelativeDocumentMoniker": "AFL\\Controllers\\GamesController.cs",
@@ -230,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AFL\\Properties\\launchSettings.json",
@@ -242,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "TeamStandingsWrapper.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\ResponseWrapper\\TeamStandingsWrapper.cs",
               "RelativeDocumentMoniker": "AFL\\ResponseWrapper\\TeamStandingsWrapper.cs",
@@ -250,11 +387,12 @@
               "RelativeToolTip": "AFL\\ResponseWrapper\\TeamStandingsWrapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:24:36.016Z"
+              "WhenOpened": "2024-12-28T15:24:36.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "TeamDetails.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Models\\TeamDetails.cs",
               "RelativeDocumentMoniker": "AFL\\Models\\TeamDetails.cs",
@@ -262,23 +400,25 @@
               "RelativeToolTip": "AFL\\Models\\TeamDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:17:14.311Z"
+              "WhenOpened": "2024-12-28T15:17:14.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "TeamStanding.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Models\\TeamStanding.cs",
               "RelativeDocumentMoniker": "AFL\\Models\\TeamStanding.cs",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Models\\TeamStanding.cs",
               "RelativeToolTip": "AFL\\Models\\TeamStanding.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwDIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wDIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:13:02.487Z"
+              "WhenOpened": "2024-12-28T15:13:02.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "TeamResponseWrapper.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\ResponseWrapper\\TeamResponseWrapper.cs",
               "RelativeDocumentMoniker": "AFL\\ResponseWrapper\\TeamResponseWrapper.cs",
@@ -286,24 +426,25 @@
               "RelativeToolTip": "AFL\\ResponseWrapper\\TeamResponseWrapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T14:09:57.471Z"
+              "WhenOpened": "2024-12-28T14:09:57.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AFL\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AFL\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T13:52:30.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Models\\Team.cs",
               "RelativeDocumentMoniker": "AFL\\Models\\Team.cs",
@@ -311,11 +452,12 @@
               "RelativeToolTip": "AFL\\Models\\Team.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:51:01.103Z"
+              "WhenOpened": "2024-12-28T13:51:01.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "TeamsApiService.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Services\\TeamsApiService.cs",
               "RelativeDocumentMoniker": "AFL\\Services\\TeamsApiService.cs",
@@ -323,12 +465,11 @@
               "RelativeToolTip": "AFL\\Services\\TeamsApiService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:11:06.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T13:11:06.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 26,
               "Title": "ITeamsApiService.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Services\\Interfaces\\ITeamsApiService.cs",
               "RelativeDocumentMoniker": "AFL\\Services\\Interfaces\\ITeamsApiService.cs",
@@ -336,31 +477,30 @@
               "RelativeToolTip": "AFL\\Services\\Interfaces\\ITeamsApiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:10:51.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T13:10:51.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "TeamsController.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Controllers\\TeamsController.cs",
               "RelativeDocumentMoniker": "AFL\\Controllers\\TeamsController.cs",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Controllers\\TeamsController.cs",
               "RelativeToolTip": "AFL\\Controllers\\TeamsController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T13:05:49.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Program.cs",
               "RelativeDocumentMoniker": "AFL\\Program.cs",
               "ToolTip": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\Program.cs",
               "RelativeToolTip": "AFL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T13:04:13.074Z",
               "EditorCaption": ""

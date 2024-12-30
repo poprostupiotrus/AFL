@@ -1,0 +1,73 @@
+﻿.add-param-select {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('/img/arrow.png') no-repeat;
+    background-position: calc(100% - 5px) center;
+    background-size: 15px;
+    padding: 10px;
+    background-color: rgb(235, 233, 231);
+    border: none;
+    font-family: 'Arial';
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.param-select-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.selector {
+    margin-right: 10px;
+}
+
+.select-name {
+    font-family: arial;
+    margin-bottom: 5px;
+}
+
+.table-standings {
+    table-layout: fixed;
+    width: 100%;
+    font-family: Arial;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+td, th {
+    padding: 7px;
+}
+
+.team-row {
+    border-bottom: 0.5px solid rgb(235, 233, 231);
+    border-top: 0.5px solid rgb(235, 233, 231);
+}
+.table-standings-team-cell {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rank-number-container
+{
+    font-weight: bold;
+}
+.team-image
+{
+    width: 20px;
+    margin-left: 10px;
+}
+.team-name
+{
+    margin-left: 10px;
+}

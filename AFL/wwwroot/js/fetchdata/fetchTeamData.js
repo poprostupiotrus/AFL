@@ -6,6 +6,14 @@
     });
     return teamsData;
 }
+export async function fetchTeamsDataByYear(year) {
+    const url = `https://api.squiggle.com.au/?q=teams;year=${year}`;
+    const teamsData = await fetch(url, { method: 'GET' }
+    ).then(response => {
+        return response.json();
+    });
+    return teamsData;
+}
 export async function fetchTeamDataById(id) {
     const url = `/api/teams/${id}`;
     const teamData = await fetch(url, { method: 'GET' }

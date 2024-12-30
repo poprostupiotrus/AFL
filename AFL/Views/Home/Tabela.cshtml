@@ -1,0 +1,40 @@
+﻿@section Styles
+{
+    <link rel="stylesheet" href="~/css/standings.css" />
+}
+@section Scripts
+{
+    <script src="~/js/standings.js" type="module"></script>
+}
+<div class="section-header"> Tabela wyników </div>
+
+<div class="param-select-container">
+
+    <div class="selector">
+        <div class="select-name">ROK</div>
+        <select class="add-param-select" id="year-select">
+        </select>
+    </div>
+
+    <div class="selector">
+        <div class="select-name">RUNDA</div>
+        <select class="add-param-select" id="round-select">
+            <option value="0">Nie wybrano</option>
+        </select>
+    </div>
+
+</div>
+
+<table class="table-standings">
+    <thead>
+        <tr class="team-row">
+            <th class="table-standings-header-cell">Drużyna</th>
+            <th class="table-standings-header-cell">Punkty</th>
+            <th class="table-standings-header-cell">Wygrane</th>
+            <th class="table-standings-header-cell">Przegrane</th>
+            <th class="table-standings-header-cell">Remisy</th>
+
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>

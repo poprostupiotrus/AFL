@@ -17,8 +17,11 @@ namespace AFL.Controllers
 		{
 			return View();
 		}
-
-		public IActionResult Privacy()
+		public IActionResult Druzyny()
+		{
+			return View();
+		}
+		public IActionResult Tabela()
 		{
 			return View();
 		}
