@@ -9,39 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AFL
 build_property.RootNamespace = AFL
-build_property.ProjectDir = C:\Users\komputerrozy\source\repos\AFL\AFL\
+build_property.ProjectDir = C:\Users\antek\OneDrive\Dokumenty\GitHub\AFL\AFL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\komputerrozy\source\repos\AFL\AFL
+build_property.MSBuildProjectDirectory = C:\Users\antek\OneDrive\Dokumenty\GitHub\AFL\AFL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/komputerrozy/source/repos/AFL/AFL/Views/Home/Druzyny.cshtml]
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/Home/Druzyna.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEcnV6eW5hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/Home/Druzyny.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEcnV6eW55LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/komputerrozy/source/repos/AFL/AFL/Views/Home/Index.cshtml]
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/Home/Gry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/komputerrozy/source/repos/AFL/AFL/Views/Home/Tabela.cshtml]
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/Home/Tabela.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWJlbGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/komputerrozy/source/repos/AFL/AFL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/komputerrozy/source/repos/AFL/AFL/Views/_ViewImports.cshtml]
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/komputerrozy/source/repos/AFL/AFL/Views/_ViewStart.cshtml]
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/komputerrozy/source/repos/AFL/AFL/Views/Shared/_Layout.cshtml]
+[C:/Users/antek/OneDrive/Dokumenty/GitHub/AFL/AFL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-r2cionvtfr

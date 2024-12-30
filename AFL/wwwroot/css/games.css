@@ -1,0 +1,75 @@
+﻿.add-param-select {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('/img/arrow.png') no-repeat;
+    background-position: calc(100% - 5px) center;
+    background-size: 15px;
+    padding: 10px;
+    background-color: rgb(235, 233, 231);
+    border: none;
+    font-family: 'Arial';
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.param-select-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.selector {
+    margin-right: 10px;
+}
+
+.select-name {
+    font-family: arial;
+    margin-bottom: 5px;
+}
+.games-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 20px;
+
+}
+.game-container {
+    box-shadow: 0px 0px 1px black;  
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.stadium-and-date-container {
+    border-bottom: 1px solid rgb(235, 233, 231);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.game-result-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+.team-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-container img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.team-name-container{
+    font-family: Arial;
+    font-size: 14px;
+}
+.score-container{
+    font-weight: bold;
+    font-size: 20px;
+}

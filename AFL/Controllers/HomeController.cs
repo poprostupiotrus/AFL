@@ -25,5 +25,14 @@ namespace AFL.Controllers
 		{
 			return View();
 		}
-	}
+
+        public IActionResult Gry()
+        {
+            return View();
+        }
+        public IActionResult Druzyna()
+        {
+            return View();
+        }
+    }
 }
