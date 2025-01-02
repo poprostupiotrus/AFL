@@ -1,17 +1,29 @@
 ﻿import * as fetchGameData from './fetchdata/fetchGameData.js';
 import * as fetchTeamData from './fetchdata/fetchTeamData.js';
+import { renderSpinner, hideSpinner } from './spinner.js';
 const imageSourceDomain = 'https://squiggle.com.au';
 const gamesContainer = document.querySelector('.games-container');
+const spinnerContainer = document.querySelector('.spinner-container');
 const currentYear = new Date().getFullYear();
+const notFoundContainer = document.querySelector('.not-found-container');
+
+const notFoundText = "Aktualnie nie są rozgrywane mecze.";
+
 init();
 function init() {
     fetchDataAndRender();
 }
 async function fetchDataAndRender() {
+    renderSpinner(spinnerContainer);
     const [games, teamData] = await Promise.all([fetchGameData.fetchLiveGames(), fetchTeamData.fetchTeamsDataByYear(currentYear)]);
-    const teams = teamData.teams;
-    addLogoUrlToGames(games, teams);
-    renderGames(games);
+    hideSpinner(spinnerContainer);
+    if (games.length === 0) {
+        notFoundContainer.innerText = notFoundText;
+    } else {
+        const teams = teamData.teams;
+        addLogoUrlToGames(games, teams);
+        renderGames(games);
+    }
 }
 function addLogoUrlToGames(games, teamData) {
     games.forEach(game => {

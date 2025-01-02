@@ -1,19 +1,24 @@
 ﻿import * as fetchTeamData from './fetchdata/fetchTeamData.js';
+import { renderSpinner, hideSpinner } from './spinner.js';
 const url = new URL(window.location.href);
 const params = new URLSearchParams(url.search);
 const teamId = Number(params.get('teamId'));
 const imageSourceDomain = 'https://squiggle.com.au';
 
-const teamInfoContainer = document.querySelector('.team-info-container');
-const teamStatsDetailContainer = document.querySelector('.team-stats-detail-container');
+const allInfoContainer = document.querySelector('.all-info-container');
+const spinnerContainer = document.querySelector('.spinner-container');
+
 init();
 async function init() {
+    renderSpinner(spinnerContainer);
     const teamDetails = await fetchTeamData.fetchTeamDataById(teamId);
-    console.log(teamDetails);
+    hideSpinner(spinnerContainer);
     renderTeamInfoContainer(teamDetails.team);
-    renderTeamStatsDetailContainer(teamDetails.teamStanding);
+    renderTeamStatsContainer(teamDetails.teamStanding);
 }
 function renderTeamInfoContainer(team) {
+    const teamInfoContainer = document.createElement('div');
+    teamInfoContainer.classList.add('team-info-container');
     const imageUrl = `${imageSourceDomain}${team.logo}`;
     const html = `
         <img src="${imageUrl}"/>
@@ -21,8 +26,18 @@ function renderTeamInfoContainer(team) {
         <div class="single-info">Debiut: ${team.debut}</div>
     `
     teamInfoContainer.innerHTML = html;
+    allInfoContainer.append(teamInfoContainer);
 }
-function renderTeamStatsDetailContainer(teamStanding) {
+function renderTeamStatsContainer(teamStanding) {
+    const teamStatsContainer = document.createElement('div');
+    teamStatsContainer.classList.add('team-stats-container');
+
+    const teamStatsHeader = document.createElement('div');
+    teamStatsHeader.classList.add('team-stats-header');
+    teamStatsHeader.innerText = 'statystki z aktualnego sezonu';
+
+    const teamStatsDetailContainer = document.createElement('div');
+    teamStatsDetailContainer.classList.add('team-stats-detail-container');
     const html = `
                 <div class="single-info">Miejsce w tabeli: ${teamStanding.rank}</div>
                 <div class="single-info">Punkty w lidze: ${teamStanding.pts}</div>
@@ -37,4 +52,9 @@ function renderTeamStatsDetailContainer(teamStanding) {
                 <div class="single-info">Łączna liczba straconych punktów: ${teamStanding.against}</div>
     `
     teamStatsDetailContainer.innerHTML = html;
+
+    teamStatsContainer.append(teamStatsHeader);
+    teamStatsContainer.append(teamStatsDetailContainer);
+
+    allInfoContainer.append(teamStatsContainer);
 }

@@ -1,4 +1,5 @@
 ﻿import * as fetchTeamData from './fetchdata/fetchTeamData.js'
+import { renderSpinner, hideSpinner } from './spinner.js';
 const rounds = 23;
 const currentYear = new Date().getFullYear();
 const firstSeasonYear = 1897;
@@ -8,6 +9,7 @@ const imageSourceDomain = 'https://squiggle.com.au';
 const tBody = document.querySelector('tbody');
 let chosenRound = undefined;
 let chosenYear = currentYear;
+const spinnerContainer = document.querySelector('.spinner-container');
 yearSelect.addEventListener('change', (event) => {
     chosenYear = Number(event.target.value);
     fetchDataAndRender()
@@ -41,10 +43,13 @@ function addOptionsToRoundSelect() {
     }
 }
 async function fetchDataAndRender() {
+    tBody.innerHTML = '';
+    spinnerContainer.innerHTML = '';
+    renderSpinner(spinnerContainer);
     const [standings, teamData] = await Promise.all([fetchTeamData.fetchTeamStandings(chosenYear, chosenRound), fetchTeamData.fetchTeamsDataByYear(chosenYear)]);
+    hideSpinner(spinnerContainer);
     const teams = teamData.teams;
     addLogoUrlToStandings(standings, teams);
-    tBody.innerHTML = '';
     renderStandings(standings);
 }
 function addLogoUrlToStandings(standings, teamData) {

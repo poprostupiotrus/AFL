@@ -1,10 +1,14 @@
 ﻿import * as fetchTeamData from './fetchdata/fetchTeamData.js'
+import { renderSpinner, hideSpinner } from './spinner.js';
 const columns = 3;
 const teamsForColumn = 6;
 const teamColumnContainer = document.querySelector('.team-column-container');
+const spinnerContainer = document.querySelector('.spinner-container');
 init();
 async function init() {
+    renderSpinner(spinnerContainer);
     const teamArray = await fetchTeamData.fetchTeamsData();
+    hideSpinner(spinnerContainer);
     const team2DArray = convertInto2DArray(teamArray);
     renderTeams(team2DArray);
 }

@@ -77,3 +77,13 @@
     font-weight: bold;
     font-size: 20px;
 }
+.not-found-container
+{
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    width: 100%;
+}

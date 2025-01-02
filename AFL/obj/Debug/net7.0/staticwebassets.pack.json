@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\spinner.css",
+      "PackagePath": "staticwebassets\\css\\spinner.css"
+    },
+    {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\standings.css",
       "PackagePath": "staticwebassets\\css\\standings.css"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\live.js",
       "PackagePath": "staticwebassets\\js\\live.js"
+    },
+    {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\spinner.js",
+      "PackagePath": "staticwebassets\\js\\spinner.js"
     },
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\standings.js",

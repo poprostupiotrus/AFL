@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0TZQRfk2xNMV2qcoEtIDxUkZli3UoMmQEVP8hJjLup8=",
+  "Hash": "3YalBKv8BQeOGqasfPPsKc85D1LC1V9DrS528ukfOBg=",
   "Source": "AFL",
   "BasePath": "_content/AFL",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
+      "Identity": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\spinner.css",
+      "SourceId": "AFL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\",
+      "BasePath": "_content/AFL",
+      "RelativePath": "css/spinner.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\spinner.css"
     },
     {
       "Identity": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\standings.css",
@@ -300,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\live.js"
+    },
+    {
+      "Identity": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\spinner.js",
+      "SourceId": "AFL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\",
+      "BasePath": "_content/AFL",
+      "RelativePath": "js/spinner.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\spinner.js"
     },
     {
       "Identity": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\standings.js",
