@@ -6,11 +6,14 @@ namespace AFL.Services
 {
 	public class GamesApiService : IGamesApiService
 	{
+		private readonly IConfiguration _config;
 		private readonly HttpClient _httpClient;
-		public GamesApiService(HttpClient httpClient)
+		public GamesApiService(HttpClient httpClient, IConfiguration config)
 		{
 			_httpClient = httpClient;
-			_httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("AFL-Server-Application");
+			_config = config;
+			string agentName = _config["ServerAgentName"];
+			_httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(agentName);
 		}
 		public async Task<List<Game>> GetGames(int year, int? round, int? teamId)
 		{
