@@ -22,11 +22,18 @@
                 <a asp-controller="Home" asp-action="Gry">Gry</a>
                 <a asp-controller="Home" asp-action="NaZywo">Na żywo</a>
             </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="rectangle"></div>
         </div>
     </header>
     <div class="main-container">
         @RenderBody()
     </div>
+    <script src = "~/js/header.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -10,6 +10,9 @@ const tBody = document.querySelector('tbody');
 let chosenRound = undefined;
 let chosenYear = currentYear;
 const spinnerContainer = document.querySelector('.spinner-container');
+
+window.addEventListener("resize", reportWindowSize);
+
 yearSelect.addEventListener('change', (event) => {
     chosenYear = Number(event.target.value);
     fetchDataAndRender()
@@ -23,7 +26,8 @@ init();
 function init() {
     addOptionsToYearSelect();
     addOptionsToRoundSelect();
-    fetchDataAndRender()
+    reportWindowSize();
+    fetchDataAndRender();
 }
 
 function addOptionsToYearSelect() {
@@ -81,4 +85,22 @@ function renderStandings(standings) {
         tBody.innerHTML += html;
         rank++;
     });
+}
+
+function reportWindowSize() {
+    const pointsHeader = document.querySelector('#points');
+    const winsHeader = document.querySelector('#wins');
+    const losesHeader = document.querySelector('#loses');
+    const drawsHeader = document.querySelector('#draws');
+    if (window.innerWidth <= 800) {
+        pointsHeader.innerText = "PKT";
+        winsHeader.innerText = "W";
+        losesHeader.innerText = "P";
+        drawsHeader.innerText = "R";
+    } else {
+        pointsHeader.innerText = "Punkty";
+        winsHeader.innerText = "Wygrane";
+        losesHeader.innerText = "Przegrane";
+        drawsHeader.innerText = "Remisy";
+    }
 }

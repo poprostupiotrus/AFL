@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AFL.bundle.scp.css",
-      "PackagePath": "staticwebassets\\AFL.bundle.scp.css"
+      "PackagePath": "staticwebassets\\AFL.gj7nyc3po4.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\css\\games.css",
@@ -55,6 +55,10 @@
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\games.js",
       "PackagePath": "staticwebassets\\js\\games.js"
+    },
+    {
+      "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\header.js",
+      "PackagePath": "staticwebassets\\js\\header.js"
     },
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\js\\live.js",
@@ -303,6 +307,10 @@
     {
       "Id": "C:\\Users\\komputerrozy\\source\\repos\\AFL\\AFL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AFL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AFL.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -27,3 +27,10 @@
 .team-logo img {
     width: 40px;
 }
+
+@media (max-width: 600px) {
+    .team-column-container {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+}

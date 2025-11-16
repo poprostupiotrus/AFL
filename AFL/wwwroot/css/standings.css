@@ -72,3 +72,29 @@ td, th {
 {
     margin-left: 10px;
 }
+
+@media (max-width: 600px) {
+    .param-select-container {
+        align-items: center;
+        flex-direction: column;
+    }
+    .selector{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .add-param-select
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 800px)
+{
+    .table-standings {
+        table-layout: auto;
+    }
+}

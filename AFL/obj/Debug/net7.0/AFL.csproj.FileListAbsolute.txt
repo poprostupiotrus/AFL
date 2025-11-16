@@ -66,3 +66,7 @@ C:\Users\antek\OneDrive\Dokumenty\GitHub\AFL\AFL\obj\Debug\net7.0\refint\AFL.dll
 C:\Users\antek\OneDrive\Dokumenty\GitHub\AFL\AFL\obj\Debug\net7.0\AFL.pdb
 C:\Users\antek\OneDrive\Dokumenty\GitHub\AFL\AFL\obj\Debug\net7.0\AFL.genruntimeconfig.cache
 C:\Users\antek\OneDrive\Dokumenty\GitHub\AFL\AFL\obj\Debug\net7.0\ref\AFL.dll
+C:\Users\komputerrozy\source\repos\AFL\AFL\bin\Debug\net7.0\AFL.staticwebassets.endpoints.json
+C:\Users\komputerrozy\source\repos\AFL\AFL\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\komputerrozy\source\repos\AFL\AFL\obj\Debug\net7.0\staticwebassets\msbuild.AFL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\komputerrozy\source\repos\AFL\AFL\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
