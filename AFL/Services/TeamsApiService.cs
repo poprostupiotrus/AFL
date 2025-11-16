@@ -10,18 +10,18 @@ namespace AFL.Services
 {
 	public class TeamsApiService : ITeamsApiService
 	{
-		private HttpClient httpClient;
-		public TeamsApiService()
+		private readonly HttpClient _httpClient;
+		public TeamsApiService(HttpClient httpClient)
 		{
-			httpClient = new HttpClient();
-			httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("AFL-Server-Application");
+			_httpClient = httpClient;
+			_httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("AFL-Server-Application");
 		}
 		public async Task<List<Team>> GetAllTeams()
 		{
 			string url = $"https://api.squiggle.com.au/?q=teams;year={DateTime.Now.Year}";
 			try
 			{
-				TeamResponseWrapper teamResponseWrapper = await DataFetcher.FetchDataFromRequest<TeamResponseWrapper>(httpClient, url);
+				TeamResponseWrapper teamResponseWrapper = await DataFetcher.FetchDataFromRequest<TeamResponseWrapper>(_httpClient, url);
 				List<Team> teams = teamResponseWrapper.Teams;
 				return teams;
 			}
@@ -37,8 +37,8 @@ namespace AFL.Services
 			string teamStandingsUrl = $"https://api.squiggle.com.au/?q=standings;year={DateTime.Now.Year}";
 			try
 			{
-				TeamResponseWrapper teamResponse = await DataFetcher.FetchDataFromRequest<TeamResponseWrapper>(httpClient, teamUrl);
-				TeamStandingsWrapper teamStandingsWrapper = await DataFetcher.FetchDataFromRequest<TeamStandingsWrapper>(httpClient, teamStandingsUrl);
+				TeamResponseWrapper teamResponse = await DataFetcher.FetchDataFromRequest<TeamResponseWrapper>(_httpClient, teamUrl);
+				TeamStandingsWrapper teamStandingsWrapper = await DataFetcher.FetchDataFromRequest<TeamStandingsWrapper>(_httpClient, teamStandingsUrl);
 				if(teamResponse.Teams.Count != 0)
 				{
 					TeamDetails teamDetails = new TeamDetails()
@@ -61,7 +61,7 @@ namespace AFL.Services
 			url = round > 0 ? $"{url};round={round}" : url;
 			try
 			{
-				TeamStandingsWrapper teamStandingsWrapper = await DataFetcher.FetchDataFromRequest<TeamStandingsWrapper>(httpClient, url);
+				TeamStandingsWrapper teamStandingsWrapper = await DataFetcher.FetchDataFromRequest<TeamStandingsWrapper>(_httpClient, url);
 				if(teamStandingsWrapper.Standings.Count != 0)
 				{
 					return teamStandingsWrapper.Standings;

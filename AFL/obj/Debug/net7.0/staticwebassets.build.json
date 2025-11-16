@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BuH0Zbu5lloyH0a05gExz+FNnQpLGs1JsIV+A3P8qlo=",
+  "Hash": "r+fZt2d6ojO6ZVHCC15lCpSo737Ao8oBszqsHxqiVtc=",
   "Source": "AFL",
   "BasePath": "_content/AFL",
   "Mode": "Default",
@@ -2745,7 +2745,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 00:50:01 GMT"
+          "Value": "Sun, 16 Nov 2025 15:17:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2790,7 +2790,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 00:50:01 GMT"
+          "Value": "Sun, 16 Nov 2025 15:17:49 GMT"
         },
         {
           "Name": "Cache-Control",

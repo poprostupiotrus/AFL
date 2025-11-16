@@ -16,19 +16,19 @@ namespace AFL.Controllers
 			_teamsApiService = teamsApiService;
 		}
 		[HttpGet]
-		public async Task<ActionResult<List<Team>>> GetTeams()
+		public async Task<IActionResult> GetTeams()
 		{
 			List<Team> teams = await _teamsApiService.GetAllTeams();
 			return Ok(teams);
 		}
-		[HttpGet("{id}")]
-		public async Task<ActionResult<TeamDetails>> GetTeamDetailsByTeamId(int id, [FromQuery] int year)
+		[HttpGet("{id:int}")]
+		public async Task<IActionResult> GetTeamDetailsByTeamId([FromRoute] int id, [FromQuery] int year)
 		{
 			TeamDetails teamDetails = year == 0 ? await _teamsApiService.GetTeamDetailsByTeamId(id) : await _teamsApiService.GetTeamDetailsByTeamId(id, year);
 			return Ok(teamDetails);
 		}
-		[HttpGet("standings/{year}/{round?}")]
-		public async Task<ActionResult<List<TeamStanding>>> GetStandings(int year, int? round)
+		[HttpGet("standings/{year:int}/{round:int?}")]
+		public async Task<IActionResult> GetStandings([FromRoute] int year, [FromRoute] int? round)
 		{
 			List<TeamStanding> teamStandings;
 			if (round.HasValue)

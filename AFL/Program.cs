@@ -8,6 +8,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddControllers();
 builder.Services.AddTransient<ITeamsApiService, TeamsApiService>();
 builder.Services.AddTransient<IGamesApiService, GamesApiService>();
+builder.Services.AddTransient<HttpClient>();
 
 var app = builder.Build();
 

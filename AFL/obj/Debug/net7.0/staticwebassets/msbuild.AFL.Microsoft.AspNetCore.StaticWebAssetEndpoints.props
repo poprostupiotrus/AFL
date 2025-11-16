@@ -148,13 +148,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fetchdata\fetchTeamData.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1yz3ewuxlz"},{"Name":"integrity","Value":"sha256-uUap\u002B2XCZbd/82/6SeV8No7fTk8PHpeXNgFXbZigo3k="},{"Name":"label","Value":"_content/AFL/js/fetchdata/fetchTeamData.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1304"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uUap\u002B2XCZbd/82/6SeV8No7fTk8PHpeXNgFXbZigo3k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Dec 2024 00:50:01 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1304"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uUap\u002B2XCZbd/82/6SeV8No7fTk8PHpeXNgFXbZigo3k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Nov 2025 15:17:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AFL/js/fetchdata/fetchTeamData.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fetchdata\fetchTeamData.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uUap\u002B2XCZbd/82/6SeV8No7fTk8PHpeXNgFXbZigo3k="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1304"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uUap\u002B2XCZbd/82/6SeV8No7fTk8PHpeXNgFXbZigo3k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Dec 2024 00:50:01 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1304"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uUap\u002B2XCZbd/82/6SeV8No7fTk8PHpeXNgFXbZigo3k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Nov 2025 15:17:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AFL/js/games.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\games.js'))</AssetFile>

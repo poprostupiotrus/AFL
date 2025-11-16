@@ -6,11 +6,11 @@ namespace AFL.Services
 {
 	public class GamesApiService : IGamesApiService
 	{
-		private HttpClient httpClient;
-		public GamesApiService()
+		private readonly HttpClient _httpClient;
+		public GamesApiService(HttpClient httpClient)
 		{
-			httpClient = new HttpClient();
-			httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("AFL-Server-Application");
+			_httpClient = httpClient;
+			_httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("AFL-Server-Application");
 		}
 		public async Task<List<Game>> GetGames(int year, int? round, int? teamId)
 		{
@@ -19,7 +19,7 @@ namespace AFL.Services
 			url = teamId.HasValue ? $"{url};team={teamId}" : url;
 			try
 			{
-				GameResponseWrapper gameResponseWrapper = await DataFetcher.FetchDataFromRequest<GameResponseWrapper>(httpClient, url);
+				GameResponseWrapper gameResponseWrapper = await DataFetcher.FetchDataFromRequest<GameResponseWrapper>(_httpClient, url);
 				if(gameResponseWrapper != null)
 				{
 					return gameResponseWrapper.games;
@@ -36,7 +36,7 @@ namespace AFL.Services
 			string url = $"https://api.squiggle.com.au/?q=games;live=1";
 			try
 			{
-				GameResponseWrapper gameResponseWrapper = await DataFetcher.FetchDataFromRequest<GameResponseWrapper>(httpClient, url);
+				GameResponseWrapper gameResponseWrapper = await DataFetcher.FetchDataFromRequest<GameResponseWrapper>(_httpClient, url);
 				if (gameResponseWrapper != null)
 				{
 					return gameResponseWrapper.games;

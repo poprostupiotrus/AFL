@@ -7,38 +7,32 @@ namespace AFL.Controllers
 	[Route("/")]
 	public class HomeController : Controller
 	{
-		private readonly ILogger<HomeController> _logger;
-
-		public HomeController(ILogger<HomeController> logger)
-		{
-			_logger = logger;
-		}
 		[HttpGet("")]
-		public IActionResult Druzyny()
+		public IActionResult Teams()
 		{
 			return View();
 		}
         [HttpGet("tabela")]
-        public IActionResult Tabela()
+        public IActionResult Standings()
 		{
 			return View();
 		}
         [HttpGet("gry")]
-        public IActionResult Gry()
+        public IActionResult Games()
         {
             return View();
         }
         [HttpGet("druzyna")]
-        public IActionResult Druzyna([FromQuery] int? teamId)
+        public IActionResult Team([FromQuery] int? teamId)
         {
 			if(!teamId.HasValue)
 			{
-				return RedirectToAction("Druzyny");
+				return RedirectToAction("Teams");
 			}
             return View();
         }
         [HttpGet("nazywo")]
-        public IActionResult NaZywo()
+        public IActionResult Live()
 		{
 			return View();
 		}

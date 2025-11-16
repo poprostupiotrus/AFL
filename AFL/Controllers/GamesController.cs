@@ -15,14 +15,14 @@ namespace AFL.Controllers
 		{
 			_gamesApiService = gamesApiService;
 		}
-		[HttpGet("{year}")]
-		public async Task<ActionResult<List<Game>>> GetGames(int year, [FromQuery] int? round, [FromQuery] int? teamId)
+		[HttpGet("{year:int}")]
+		public async Task<IActionResult> GetGames([FromRoute] int year, [FromQuery] int? round, [FromQuery] int? teamId)
 		{
 			List<Game> games = await _gamesApiService.GetGames(year, round, teamId);
 			return Ok(games);
 		}
 		[HttpGet("live")]
-		public async Task<ActionResult<List<Game>>> GetLiveGames()
+		public async Task<IActionResult> GetLiveGames()
 		{
 			List<Game> games = await _gamesApiService.GetLiveGames();
 			return Ok(games);
