@@ -10,11 +10,14 @@ namespace AFL.Services
 {
 	public class TeamsApiService : ITeamsApiService
 	{
-		private readonly HttpClient _httpClient;
-		public TeamsApiService(HttpClient httpClient)
+        private readonly IConfiguration _config;
+        private readonly HttpClient _httpClient;
+		public TeamsApiService(HttpClient httpClient, IConfiguration config)
 		{
 			_httpClient = httpClient;
-			_httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("AFL-Server-Application");
+			_config = config;
+            string agentName = _config["ServerAgentName"];
+            _httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(agentName);
 		}
 		public async Task<List<Team>> GetAllTeams()
 		{
